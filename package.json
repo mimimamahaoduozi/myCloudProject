@@ -1,5 +1,5 @@
 {
-  "name": "服务器项",
+  "name": "myCloudProject",
   "version": "1.0.0",
   "description": "",
   "private": true,
@@ -23,8 +23,8 @@
     "node": ">=10.0.0"
   },
   "scripts": {
-    "start": "egg-scripts start --daemon --title=egg-server-服务器项",
-    "stop": "egg-scripts stop --title=egg-server-服务器项",
+    "start": "egg-scripts start --daemon --title=egg-server-myCloudProject",
+    "stop": "egg-scripts stop --title=egg-server-myCloudProject",
     "dev": "egg-bin dev",
     "debug": "egg-bin debug",
     "test": "npm run lint -- --fix && npm run test-local",
